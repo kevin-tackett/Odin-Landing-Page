@@ -64,15 +64,15 @@ li, a, button{
     flex-wrap: wrap;
     color: #F9FAF8;
     align-items: center;    
-    flex: 1;
+
 }
 
 .right_img {
     /* border: solid green 2px; */
     object-fit: contain;
-    max-width: 300px;
-    flex: 1;
+    max-width: 350px;
     align-self: center;
+    border-radius: 16px;
 }
 
 button {
@@ -140,8 +140,8 @@ button {
 
 .section_3 {
     background-color: #E5E7EB;
-    padding: 30px 10%;
-    font-size: 36px;
+    padding: 120px;
+    font-size: 24px;
     font-style: italic;
     color: #1F2937;    
 }
