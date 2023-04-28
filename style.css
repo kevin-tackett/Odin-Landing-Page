@@ -77,6 +77,8 @@ li, a, button{
 
 button {
     flex-basis: 100px;
+    min-width: 100px;
+    max-height: 50px;
     background-color: #3882F6;
     margin-top: 16px;
     border: none;
@@ -154,4 +156,31 @@ button {
 .text_2 {
     align-self: flex-end;
     font-style: normal;
+}
+
+.section_4 {
+    margin: 30px 0 30px 0;
+    padding: 30px 10%;
+}
+
+.action_box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.ab_text {
+    color: white;
+}
+
+.ab_button {
+    border: solid white 2px;
+}
+
+.action_box > button {
+    align-self: center;
 }
