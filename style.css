@@ -185,6 +185,10 @@ button {
     align-self: center;
 }
 
+.ab_text > p {
+    color: #E5E7EB;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
