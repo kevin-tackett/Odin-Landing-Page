@@ -7,9 +7,7 @@
 }
 
 body {
-    /* display: flex;
-    height: 100%;
-    width: 100%; */
+    font-size: 18px;
 }
 
 header {
@@ -100,6 +98,7 @@ button {
     background-color: white;
     text-align: center;
     padding: 30px 10%;
+    color: #1F2937;
 }
 
 .container {
@@ -137,4 +136,22 @@ button {
     flex-direction: column;
     gap: 16px;
     margin-bottom: 16px;
+}
+
+.section_3 {
+    background-color: #E5E7EB;
+    padding: 30px 10%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;    
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_2 {
+    align-self: flex-end;
+    font-style: normal;
 }
