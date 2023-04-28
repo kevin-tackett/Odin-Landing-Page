@@ -64,15 +64,15 @@ li, a, button{
     /* border: solid green 2px; */
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 50%;
-    color: #F9FAF8;    
+    color: #F9FAF8;
+    align-items: center;    
     flex: 1;
 }
 
 .right_img {
     /* border: solid green 2px; */
-    flex-basis: 50%;
     object-fit: contain;
+    max-width: 300px;
     flex: 1;
     align-self: center;
 }
@@ -86,6 +86,7 @@ button {
     padding: 8px 2px;
     cursor: pointer;
     border-radius: 10px;
+    /* max-height: 80px; */
 }
 
 .left_info > h1 {
@@ -102,10 +103,38 @@ button {
 }
 
 .container {
-    border: solid green 2px;
+    /* border: solid green 2px; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
 }
 
+.img_1 {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.img_2 {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.img_3 {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.img_4 {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.box {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
